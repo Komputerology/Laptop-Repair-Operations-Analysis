@@ -14,7 +14,7 @@ This analysis examines:
 - How many repairs are completed versus still open?
 - What is the average repair turnaround time?
 - How is repair volume distributed across technicians?
-- Which areas may benefit from operational improvement?
+- What areas may benefit from operational improvement?
 
 ## Tools
 
@@ -45,15 +45,39 @@ The analysis calculates:
 - Repairs by issue type
 - Repairs by technician
 
+## Results
+
+The analysis identifies patterns in hardware repair demand, technician workload, and repair turnaround time.
+
+These results demonstrate how IT operations data can be used to monitor workload, identify recurring hardware issues, and support process improvement.
+
+## Visualizations
+
+### Repairs by Issue Type
+
+![Repairs by Issue Type](tickets_by_issue.png)
+
+### Repairs by Technician
+
+![Repairs by Technician](tickets_by_technician.png)
+
 ## Business Value
 
-Repair operations teams can use this type of analysis to monitor workload, identify recurring hardware problems, evaluate turnaround time, and identify opportunities to improve repair processes.
+Repair operations teams can use this type of analysis to:
+
+- Monitor repair workload
+- Identify recurring hardware problems
+- Evaluate turnaround time
+- Understand technician workload
+- Identify opportunities to improve repair processes
 
 ## Project Files
 
 | File | Description |
 |---|---|
 | `Laptop_Repair_Operations_Analysis.ipynb` | Complete Python analysis and visualizations |
+| `tickets_by_issue.png` | Repair volume by issue type |
+| `tickets_by_technician.png` | Repair volume by technician |
 | `README.md` | Project documentation |
 
 ## Note
